@@ -45,6 +45,13 @@ public class Depurar {
 		return n;
 	}
 
+	public static String textoVacio(String texto, Scanner sc) {
+		String n="";
+			System.out.println(texto);
+			n=sc.nextLine();
+		return n;
+	}
+
 	//Depura para que el String para que sea una unica palabra
 	public static String palabra(String texto, Scanner sc) {
 		String n="";

@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.List;
 
 public class ArbolLetras extends ArbolBinario<Character> {

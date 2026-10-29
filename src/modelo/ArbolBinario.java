@@ -1,4 +1,8 @@
+package modelo;
+
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
     public class ArbolBinario<T> {
@@ -45,5 +49,21 @@ import java.util.Queue;
                 System.out.println(sb);
                 nivel++;
             }
+        }
+
+        //Para mostrar la lista en orden
+        public List<T> inorden() {
+            List<T> resultado = new ArrayList<>();
+            inorden(raiz, resultado);
+            return resultado;
+        }
+
+
+        //Funcion para listar el arbol
+        private void inorden(Nodo<T> n, List<T> resultado) {
+            if (n == null) return;
+            inorden(n.getIzquierda(), resultado);
+            resultado.add(n.getDato());
+            inorden(n.getDerecha(), resultado);
         }
     }

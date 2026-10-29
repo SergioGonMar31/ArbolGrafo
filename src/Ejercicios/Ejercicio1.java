@@ -1,5 +1,7 @@
-import utiles.Depurar;
+package Ejercicios;
 
+import utiles.Depurar;
+import modelo.*;
 import java.util.*;
 
 public class Ejercicio1 {

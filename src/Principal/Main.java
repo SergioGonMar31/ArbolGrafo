@@ -1,3 +1,5 @@
+import Ejercicios.Ejercicio1;
+import Ejercicios.Ejercicio2;
 import utiles.Depurar;
 
 void main() {
@@ -10,15 +12,19 @@ void main() {
                 ej1.comenzar();
                 break;
             case "2":
+                Ejercicio2 ej2 = new Ejercicio2();
+                ej2.comenzar();
                 break;
             case "3":
                 break;
             case "4":
+                salir=true;
                 break;
             default:
                 System.err.println("Elige una opción valida");
         }
     }
+    System.err.println("Has salido del programa.");
 }
 
 

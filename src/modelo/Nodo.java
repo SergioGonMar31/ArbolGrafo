@@ -1,3 +1,5 @@
+package modelo;
+
 public class Nodo<T> {
     //El "T" representa cualquier tipo de Dato
     private T dato;
