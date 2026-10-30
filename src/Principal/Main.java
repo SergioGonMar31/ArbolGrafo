@@ -1,5 +1,6 @@
 import Ejercicios.Ejercicio1;
 import Ejercicios.Ejercicio2;
+import Ejercicios.Ejercicio3;
 import utiles.Depurar;
 
 void main() {
@@ -16,6 +17,8 @@ void main() {
                 ej2.comenzar();
                 break;
             case "3":
+                Ejercicio3 ej3 = new Ejercicio3();
+                ej3.comenzar();
                 break;
             case "4":
                 salir=true;

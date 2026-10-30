@@ -6,10 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Ejercicio 2: listín telefónico sobre un árbol binario de búsqueda ordenado por
- * (apellidos, nombre). Un HashMap por teléfono permite buscarlo rápido y garantiza que sea único.
- */
+
 public class ListinTelefonico extends ArbolBusqueda<Contacto> {
 
     // Orden: apellidos, nombre y, para desempatar homónimos, el teléfono (que es único)
